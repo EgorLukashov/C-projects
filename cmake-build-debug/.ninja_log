@@ -1,0 +1,8 @@
+# ninja log v5
+6	115	7160663460087232	CMakeFiles/C_projects.dir/School-21/C3_SimpleBashUtils-5-master/src/cat/main.c.obj	cfbaa1ba0984ffd0
+3	90	7164835535989775	CMakeFiles/C_projects.dir/Leetcode/Two_sum/two_sum.c.obj	3f6acb7b9acb3342
+91	193	7164835536961659	C_projects.exe	6df588ffd5d83773
+21	143	7169411843719440	CMakeFiles/C_projects.dir/Draft/Draft.c.obj	942efbf2cf033a86
+12	278	7169411845114037	CMakeFiles/C_projects.dir/Leetcode/1108_Defanging_an_IP_Address/1108_Defanging_an_IP_Address.c.obj	9c155a958b1b3c03
+0	116	7164846123957475	CMakeFiles/C_projects.dir/Leetcode/1_Two_sum/two_sum.c.obj	127f4cc937212ef
+31	176	7169411844068239	CMakeFiles/C_projects.dir/Leetcode/1689_Partitioning_into_minimum_number_of_deci_binary_numbers/1689_Partitioning_into_minimum_number_of_deci_binary_numbers.c.obj	802335a6dfebb70a
