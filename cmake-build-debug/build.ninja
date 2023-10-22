@@ -85,6 +85,24 @@ build CMakeFiles/C_projects.dir/School-21/C3_SimpleBashUtils-5-master/src/CatFun
   OBJECT_DIR = CMakeFiles\C_projects.dir
   OBJECT_FILE_DIR = CMakeFiles\C_projects.dir\School-21\C3_SimpleBashUtils-5-master\src
 
+build CMakeFiles/C_projects.dir/Draft/LinkedList.c.obj: C_COMPILER__C_projects_unscanned_Debug C$:/Users/legor/Desktop/C-projects/Draft/LinkedList.c || cmake_object_order_depends_target_C_projects
+  DEP_FILE = CMakeFiles\C_projects.dir\Draft\LinkedList.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C_projects.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_projects.dir\Draft
+
+build CMakeFiles/C_projects.dir/Draft/LinkedList_Leetcode.c.obj: C_COMPILER__C_projects_unscanned_Debug C$:/Users/legor/Desktop/C-projects/Draft/LinkedList_Leetcode.c || cmake_object_order_depends_target_C_projects
+  DEP_FILE = CMakeFiles\C_projects.dir\Draft\LinkedList_Leetcode.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C_projects.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_projects.dir\Draft
+
+build CMakeFiles/C_projects.dir/Leetcode/2807_Insert_Greatest_Common_Divisors_in_Linked_List/2807_Insert_Greatest_Common_Divisors_in_Linked_List.c.obj: C_COMPILER__C_projects_unscanned_Debug C$:/Users/legor/Desktop/C-projects/Leetcode/2807$ Insert$ Greatest$ Common$ Divisors$ in$ Linked$ List/2807$ Insert$ Greatest$ Common$ Divisors$ in$ Linked$ List.c || cmake_object_order_depends_target_C_projects
+  DEP_FILE = CMakeFiles\C_projects.dir\Leetcode\2807_Insert_Greatest_Common_Divisors_in_Linked_List\2807_Insert_Greatest_Common_Divisors_in_Linked_List.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C_projects.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_projects.dir\Leetcode\2807_Insert_Greatest_Common_Divisors_in_Linked_List
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C_projects
@@ -93,7 +111,7 @@ build CMakeFiles/C_projects.dir/School-21/C3_SimpleBashUtils-5-master/src/CatFun
 #############################################
 # Link the executable C_projects.exe
 
-build C_projects.exe: C_EXECUTABLE_LINKER__C_projects_Debug CMakeFiles/C_projects.dir/Leetcode/1_Two_sum/two_sum.c.obj CMakeFiles/C_projects.dir/School-21/C3_SimpleBashUtils-5-master/src/cat/main.c.obj CMakeFiles/C_projects.dir/Leetcode/1108_Defanging_an_IP_Address/1108_Defanging_an_IP_Address.c.obj CMakeFiles/C_projects.dir/Leetcode/1689_Partitioning_into_minimum_number_of_deci_binary_numbers/1689_Partitioning_into_minimum_number_of_deci_binary_numbers.c.obj CMakeFiles/C_projects.dir/Draft/Draft.c.obj CMakeFiles/C_projects.dir/School-21/C3_SimpleBashUtils-5-master/src/CatFunction.c.obj
+build C_projects.exe: C_EXECUTABLE_LINKER__C_projects_Debug CMakeFiles/C_projects.dir/Leetcode/1_Two_sum/two_sum.c.obj CMakeFiles/C_projects.dir/School-21/C3_SimpleBashUtils-5-master/src/cat/main.c.obj CMakeFiles/C_projects.dir/Leetcode/1108_Defanging_an_IP_Address/1108_Defanging_an_IP_Address.c.obj CMakeFiles/C_projects.dir/Leetcode/1689_Partitioning_into_minimum_number_of_deci_binary_numbers/1689_Partitioning_into_minimum_number_of_deci_binary_numbers.c.obj CMakeFiles/C_projects.dir/Draft/Draft.c.obj CMakeFiles/C_projects.dir/School-21/C3_SimpleBashUtils-5-master/src/CatFunction.c.obj CMakeFiles/C_projects.dir/Draft/LinkedList.c.obj CMakeFiles/C_projects.dir/Draft/LinkedList_Leetcode.c.obj CMakeFiles/C_projects.dir/Leetcode/2807_Insert_Greatest_Common_Divisors_in_Linked_List/2807_Insert_Greatest_Common_Divisors_in_Linked_List.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\C_projects.dir

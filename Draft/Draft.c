@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <inttypes.h>//новые интовые типы!!
+#include <ctype.h>//работа с char(toupper, tolower, проверить, относится ли символ к опр группе)
+#include <conio.h>
 #define PAGES 336
 #define WORDS 65618
 int main(){
@@ -37,9 +39,41 @@ int main(){
     printf("num как тип int и тип char: %d %c\n", num, num);
     printf("WORDS как тип int, short и char: %d %hd %c \n",
            WORDS, WORDS, WORDS);*/
-    int num1,num2;
+    /*int num1,num2;
     scanf("%d%d", &num1,&num2);
-    printf("%d %d", num1, num2);
+    printf("%d %d", num1, num2);*/
+    /*char num1,num2;
+    scanf(" %c", &num1);//если указать пробел передспецификатором, то scanf будет ждать символ(не пробел)
+    printf("%c", num1); //а если не указать, то scanf считает любой char в т.ч. пробел
+
+    *//*scanf("%d %d", &width, &precision); * подразумевает под собой значение переменной
+    printf("Bec = %*.*f\n", width, precision, weight);*//*
+    int n;
+    printf("Bвeдитe три целых числа :\n") ;
+    scanf("%*d %*d %d", &n);//* означает игнорировать введённое число
+    printf("Последним целым числом было %d\n", n);*/
+    /*int ch;
+    *//*ch = getchar();//передаёт ASCII код в целочисленную переменную ch
+    //printf("%d", ch);
+    putchar(ch);*//*
+    ch=getchar();
+    if(isdigit(ch)){//все функции в книге, страница 255
+        putchar(ch);
+    }*/
+    /*int x;
+    int y=-2;
+    x=(y<0)?y:-y;//тернарный оператор выражение! ? выражение2 : выражение]
+    *//*if (y < 0)//альтернатива тернарному оператору
+        x = -y;
+    else
+        x = y;*//*
+    printf("%d",x);*/
+    int val;
+    while((val=getchar())!=EOF){
+        putchar(val);
+    }
+
+
     return 0;
 }
 

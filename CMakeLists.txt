@@ -9,4 +9,7 @@ add_executable(C_projects
         "Leetcode/1108 Defanging an IP Address/1108 Defanging an IP Address.c"
         "Leetcode/1689 Partitioning into minimum number of deci binary numbers/1689 Partitioning into minimum number of deci binary numbers.c"
         Draft/Draft.c
-        School-21/C3_SimpleBashUtils-5-master/src/CatFunction.c)
+        School-21/C3_SimpleBashUtils-5-master/src/CatFunction.c
+        Draft/LinkedList.c
+        Draft/LinkedList_Leetcode.c
+        "Leetcode/2807 Insert Greatest Common Divisors in Linked List/2807 Insert Greatest Common Divisors in Linked List.c")
